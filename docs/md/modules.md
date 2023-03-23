@@ -8,23 +8,7 @@
 
 - [&lt;internal\&gt;](modules/internal_.md)
 
-### Variables
+### Classes
 
-- [default](modules.md#default)
-
-## Variables
-
-### default
-
-• **default**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `DeveloperAPI` | typeof [`DeveloperAPI`](classes/internal_.DeveloperAPI.md) |
-| `PublicAPI` | typeof [`PublicAPI`](classes/internal_.PublicAPI.md) |
-
-#### Defined in
-
-[src/index.ts:4](https://github.com/IIKris/upland-api-wrapper/blob/bc69aa7/src/index.ts#L4)
+- [DeveloperAPI](classes/DeveloperAPI.md)
+- [PublicAPI](classes/PublicAPI.md)

@@ -1,8 +1,6 @@
-[Upland Developer API](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / DeveloperAPI
+[Upland Developer API](../README.md) / [Exports](../modules.md) / DeveloperAPI
 
 # Class: DeveloperAPI
-
-[<internal>](../modules/internal_.md).DeveloperAPI
 
 DeveloperAPI is the main class for the Upland Developer API.
 
@@ -34,20 +32,20 @@ const containerInformation = await testContainer.getInformation();
 
 ### Constructors
 
-- [constructor](internal_.DeveloperAPI.md#constructor)
+- [constructor](DeveloperAPI.md#constructor)
 
 ### Properties
 
-- [\_axiosInstance](internal_.DeveloperAPI.md#_axiosinstance)
-- [\_baseURL](internal_.DeveloperAPI.md#_baseurl)
-- [generic](internal_.DeveloperAPI.md#generic)
+- [\_axiosInstance](DeveloperAPI.md#_axiosinstance)
+- [\_baseURL](DeveloperAPI.md#_baseurl)
+- [generic](DeveloperAPI.md#generic)
 
 ### Methods
 
-- [createContainer](internal_.DeveloperAPI.md#createcontainer)
-- [generateAuthCode](internal_.DeveloperAPI.md#generateauthcode)
-- [getContainer](internal_.DeveloperAPI.md#getcontainer)
-- [getUser](internal_.DeveloperAPI.md#getuser)
+- [createContainer](DeveloperAPI.md#createcontainer)
+- [generateAuthCode](DeveloperAPI.md#generateauthcode)
+- [getContainer](DeveloperAPI.md#getcontainer)
+- [getUser](DeveloperAPI.md#getuser)
 
 ## Constructors
 
@@ -73,7 +71,7 @@ const devAPI = new DeveloperAPI(APPLICATION_ID, ACCESS_TOKEN, true)
 
 #### Defined in
 
-src/developer/index.ts:48
+[src/developer/index.ts:48](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L48)
 
 ## Properties
 
@@ -83,7 +81,7 @@ src/developer/index.ts:48
 
 #### Defined in
 
-src/developer/index.ts:33
+[src/developer/index.ts:33](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L33)
 
 ___
 
@@ -93,7 +91,7 @@ ___
 
 #### Defined in
 
-src/developer/index.ts:34
+[src/developer/index.ts:34](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L34)
 
 ___
 
@@ -103,7 +101,7 @@ ___
 
 #### Defined in
 
-src/developer/index.ts:35
+[src/developer/index.ts:35](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L35)
 
 ## Methods
 
@@ -127,7 +125,7 @@ A Promise that resolves to an instance of the EscrowContainer class.
 
 #### Defined in
 
-src/developer/index.ts:91
+[src/developer/index.ts:91](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L91)
 
 ___
 
@@ -145,7 +143,7 @@ A Promise that resolves to an object containing the auth code and the expiration
 
 #### Defined in
 
-src/developer/index.ts:66
+[src/developer/index.ts:66](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L66)
 
 ___
 
@@ -169,7 +167,7 @@ A Promise that resolves to an instance of the EscrowContainer class.
 
 #### Defined in
 
-src/developer/index.ts:112
+[src/developer/index.ts:112](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L112)
 
 ___
 
@@ -193,4 +191,4 @@ Instance of the UplandUser class.
 
 #### Defined in
 
-src/developer/index.ts:81
+[src/developer/index.ts:81](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/index.ts#L81)

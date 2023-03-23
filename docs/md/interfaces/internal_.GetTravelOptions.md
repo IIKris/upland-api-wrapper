@@ -25,7 +25,7 @@ Current page number.
 
 #### Defined in
 
-src/developer/user/models.ts:141
+[src/developer/user/models.ts:141](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L141)
 
 ___
 
@@ -49,4 +49,4 @@ Page size between 10 and 100.
 
 #### Defined in
 
-src/developer/user/models.ts:149
+[src/developer/user/models.ts:149](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L149)

@@ -29,7 +29,7 @@
 
 #### Defined in
 
-src/developer/generic/models.ts:99
+[src/developer/generic/models.ts:99](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L99)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:102
+[src/developer/generic/models.ts:102](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L102)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:101
+[src/developer/generic/models.ts:101](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L101)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:93
+[src/developer/generic/models.ts:93](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L93)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:95
+[src/developer/generic/models.ts:95](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L95)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:91
+[src/developer/generic/models.ts:91](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L91)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:98
+[src/developer/generic/models.ts:98](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L98)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:92
+[src/developer/generic/models.ts:92](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L92)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:100
+[src/developer/generic/models.ts:100](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L100)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:96
+[src/developer/generic/models.ts:96](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L96)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:94
+[src/developer/generic/models.ts:94](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L94)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:97
+[src/developer/generic/models.ts:97](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L97)

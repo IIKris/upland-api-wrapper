@@ -27,7 +27,7 @@ The NFT categories to filter the assets by.
 
 #### Defined in
 
-src/developer/user/models.ts:100
+[src/developer/user/models.ts:100](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L100)
 
 ___
 
@@ -43,7 +43,7 @@ Current page number
 
 #### Defined in
 
-src/developer/user/models.ts:86
+[src/developer/user/models.ts:86](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L86)
 
 ___
 
@@ -67,7 +67,7 @@ Page size between 10 and 100
 
 #### Defined in
 
-src/developer/user/models.ts:94
+[src/developer/user/models.ts:94](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L94)
 
 ___
 
@@ -79,4 +79,4 @@ Text for NFT asset name search.
 
 #### Defined in
 
-src/developer/user/models.ts:105
+[src/developer/user/models.ts:105](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L105)

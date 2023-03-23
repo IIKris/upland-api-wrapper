@@ -56,7 +56,7 @@ Creates an instance of UplandUser.
 
 #### Defined in
 
-src/developer/user/index.ts:25
+[src/developer/user/index.ts:25](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L25)
 
 ## Properties
 
@@ -66,7 +66,7 @@ src/developer/user/index.ts:25
 
 #### Defined in
 
-src/developer/user/index.ts:17
+[src/developer/user/index.ts:17](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L17)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-src/developer/user/index.ts:16
+[src/developer/user/index.ts:16](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L16)
 
 ## Methods
 
@@ -94,7 +94,7 @@ The user balances (upx, spark, sends).
 
 #### Defined in
 
-src/developer/user/index.ts:55
+[src/developer/user/index.ts:55](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L55)
 
 ___
 
@@ -118,7 +118,7 @@ The paginated result of the NFT assets.
 
 #### Defined in
 
-src/developer/user/index.ts:75
+[src/developer/user/index.ts:75](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L75)
 
 ___
 
@@ -136,7 +136,7 @@ The user profile.
 
 #### Defined in
 
-src/developer/user/index.ts:41
+[src/developer/user/index.ts:41](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L41)
 
 ___
 
@@ -160,7 +160,7 @@ Function to get properties for a given city.
 
 #### Defined in
 
-src/developer/user/index.ts:114
+[src/developer/user/index.ts:114](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L114)
 
 ___
 
@@ -182,7 +182,7 @@ The paginated result of the travels.
 
 #### Defined in
 
-src/developer/user/index.ts:143
+[src/developer/user/index.ts:143](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L143)
 
 ___
 
@@ -206,4 +206,4 @@ The transaction ID.
 
 #### Defined in
 
-src/developer/user/index.ts:170
+[src/developer/user/index.ts:170](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/index.ts#L170)

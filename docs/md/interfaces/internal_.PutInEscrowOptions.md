@@ -22,7 +22,7 @@ The NFT assets to put in escrow.
 
 #### Defined in
 
-src/developer/user/models.ts:166
+[src/developer/user/models.ts:166](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L166)
 
 ___
 
@@ -34,7 +34,7 @@ The container ID to put the asset into.
 
 #### Defined in
 
-src/developer/user/models.ts:156
+[src/developer/user/models.ts:156](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L156)
 
 ___
 
@@ -46,4 +46,4 @@ The upx amount to put in escrow.
 
 #### Defined in
 
-src/developer/user/models.ts:161
+[src/developer/user/models.ts:161](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L161)

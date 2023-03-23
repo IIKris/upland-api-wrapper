@@ -34,7 +34,7 @@ This enum is used to define the NFT categories.
 
 #### Defined in
 
-src/developer/user/models.ts:178
+[src/developer/user/models.ts:178](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L178)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:179
+[src/developer/user/models.ts:179](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L179)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:185
+[src/developer/user/models.ts:185](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L185)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:182
+[src/developer/user/models.ts:182](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L182)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:180
+[src/developer/user/models.ts:180](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L180)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:184
+[src/developer/user/models.ts:184](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L184)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:183
+[src/developer/user/models.ts:183](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L183)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:181
+[src/developer/user/models.ts:181](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L181)
 
 ___
 
@@ -114,4 +114,4 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:177
+[src/developer/user/models.ts:177](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L177)

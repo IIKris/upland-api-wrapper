@@ -27,7 +27,7 @@
 
 #### Defined in
 
-src/developer/generic/models.ts:114
+[src/developer/generic/models.ts:114](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L114)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:108
+[src/developer/generic/models.ts:108](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L108)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:110
+[src/developer/generic/models.ts:110](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L110)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:106
+[src/developer/generic/models.ts:106](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L106)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:113
+[src/developer/generic/models.ts:113](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L113)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:107
+[src/developer/generic/models.ts:107](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L107)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:115
+[src/developer/generic/models.ts:115](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L115)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:111
+[src/developer/generic/models.ts:111](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L111)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:109
+[src/developer/generic/models.ts:109](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L109)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:112
+[src/developer/generic/models.ts:112](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L112)

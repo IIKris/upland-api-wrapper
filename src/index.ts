@@ -1,7 +1,7 @@
 import DeveloperAPI from './developer';
 import PublicAPI from './public';
 
-export default {
+export {
     DeveloperAPI,
     PublicAPI,
 };

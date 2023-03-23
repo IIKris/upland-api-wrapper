@@ -12,7 +12,31 @@ To install the Upland API Wrapper, run the following command:
 npm install @ikris/upland-api-wrapper
 ```
 
-# Documentation
+## Usage
+This package supports both CommonJS and ES Modules. To use the package, import it into your project:
+```js
+// ES Modules
+import { DeveloperAPI, PublicAPI } from '@ikris/upland-api-wrapper';
+
+// CommonJS
+const { DeveloperAPI, PublicAPI } = require('@ikris/upland-api-wrapper');
+```
+
+### Developer API
+The Developer API is used to interact with the Upland Developer API. To use the Developer API, create a new instance of the DeveloperAPI class:
+```js
+const devAPI = new DeveloperAPI(APPLICATION_ID, 'YOUR-APPLICATION-KEY', SANDBOX); // SANDBOX is a boolean
+```
+
+Further examples can be found in the full documentation [here](docs/md/modules.md).
+
+### Public API
+The Public API currently only supports one endpoint, which is used to check if upland is currently in maintenance mode.
+```js
+const maintenance = await PublicAPI.isMaintenance();
+```
+
+## Documentation
 The full documentation can be found [here](docs/md/modules.md)
 
 ## Tests
