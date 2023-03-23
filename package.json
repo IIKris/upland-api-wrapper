@@ -1,5 +1,5 @@
 {
-  "name": "@ikris/upland-dev-api",
+  "name": "@ikris/upland-api-wrapper",
   "version": "0.0.1",
   "description": "An npm package for the Upland Developer API",
   "exports": {
@@ -25,19 +25,46 @@
     "build:esm": "tsc -p ./configs/tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p ./configs/tsconfig.cjs.json",
     "test": "mocha",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "docs:generate": "typedoc --plugin typedoc-plugin-missing-exports --out docs/html",
+    "docs:markdown": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-plugin-missing-exports --out docs/md"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IIKris/upland-api-wrapper.git"
+  },
+  "homepage": "https://github.com/IIKris/upland-api-wrapper#readme",
+  "keywords": ["upland", "api", "wrapper", "upland-api-wrapper", "upland-api", "upland-dev", "upland-dev-api"],
+  "author": "IIKris <ikris.me@proton.me> (https://twitter.com/ikrisU)",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-typescript": "^7.21.0",
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.3",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "chai": "^4.3.7",
+    "docdash": "^2.0.1",
+    "dotenv": "^16.0.3",
     "eslint": "^8.35.0",
     "mocha": "^10.2.0",
+    "nock": "^13.3.0",
     "ts-node": "^10.9.1",
+    "typedoc": "^0.23.28",
+    "typedoc-plugin-markdown": "^3.14.0",
+    "typedoc-plugin-missing-exports": "^1.0.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.3.4"
   }
 }

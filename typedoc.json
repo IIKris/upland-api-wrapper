@@ -1,0 +1,7 @@
+{
+    "entryPoints": ["./src/index.ts"],
+    "out": "docs/html",
+    "tsconfig": "configs/tsconfig.esm.json",
+    "name": "Upland Developer API"
+  }
+  
