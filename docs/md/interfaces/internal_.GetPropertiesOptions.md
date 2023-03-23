@@ -27,7 +27,7 @@ The city ID to filter the properties by.
 
 #### Defined in
 
-src/developer/generic/models.ts:172
+[src/developer/generic/models.ts:172](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L172)
 
 ___
 
@@ -43,7 +43,7 @@ Current page number.
 
 #### Defined in
 
-src/developer/generic/models.ts:158
+[src/developer/generic/models.ts:158](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L158)
 
 ___
 
@@ -67,7 +67,7 @@ Page size between 10 and 100.
 
 #### Defined in
 
-src/developer/generic/models.ts:166
+[src/developer/generic/models.ts:166](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L166)
 
 ___
 
@@ -83,4 +83,4 @@ Text for property address search.
 
 #### Defined in
 
-src/developer/generic/models.ts:178
+[src/developer/generic/models.ts:178](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L178)

@@ -41,7 +41,7 @@
 
 #### Defined in
 
-src/developer/escrow/index.ts:15
+[src/developer/escrow/index.ts:15](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L15)
 
 ## Properties
 
@@ -51,7 +51,7 @@ src/developer/escrow/index.ts:15
 
 #### Defined in
 
-src/developer/escrow/index.ts:8
+[src/developer/escrow/index.ts:8](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L8)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/index.ts:7
+[src/developer/escrow/index.ts:7](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L7)
 
 ## Methods
 
@@ -83,7 +83,7 @@ Removes a transaction that has not been signed by the user from container.
 
 #### Defined in
 
-src/developer/escrow/index.ts:107
+[src/developer/escrow/index.ts:107](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L107)
 
 ___
 
@@ -101,7 +101,7 @@ The developer shop ID of the container.
 
 #### Defined in
 
-src/developer/escrow/index.ts:34
+[src/developer/escrow/index.ts:34](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L34)
 
 ___
 
@@ -119,7 +119,7 @@ The ID of the container.
 
 #### Defined in
 
-src/developer/escrow/index.ts:25
+[src/developer/escrow/index.ts:25](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L25)
 
 ___
 
@@ -137,7 +137,7 @@ A Promise that resolves to an object containing the container information.
 
 #### Defined in
 
-src/developer/escrow/index.ts:43
+[src/developer/escrow/index.ts:43](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L43)
 
 ___
 
@@ -153,7 +153,7 @@ Method to lock the container and prevent any further changes.
 
 #### Defined in
 
-src/developer/escrow/index.ts:118
+[src/developer/escrow/index.ts:118](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L118)
 
 ___
 
@@ -169,7 +169,7 @@ Method to refresh the expiration time of the container.
 
 #### Defined in
 
-src/developer/escrow/index.ts:129
+[src/developer/escrow/index.ts:129](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L129)
 
 ___
 
@@ -187,7 +187,7 @@ A Promise that resolves to an object containing the transaction ID.
 
 #### Defined in
 
-src/developer/escrow/index.ts:58
+[src/developer/escrow/index.ts:58](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L58)
 
 ___
 
@@ -209,4 +209,4 @@ A Promise that resolves to an object containing the transaction ID.
 
 #### Defined in
 
-src/developer/escrow/index.ts:78
+[src/developer/escrow/index.ts:78](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/index.ts#L78)

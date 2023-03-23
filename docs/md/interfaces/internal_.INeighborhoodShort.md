@@ -19,7 +19,7 @@
 
 #### Defined in
 
-src/developer/generic/models.ts:23
+[src/developer/generic/models.ts:23](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L23)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:24
+[src/developer/generic/models.ts:24](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L24)

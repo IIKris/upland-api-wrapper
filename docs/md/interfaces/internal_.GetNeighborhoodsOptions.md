@@ -25,7 +25,7 @@ City ID to filter the neighborhoods by.
 
 #### Defined in
 
-src/developer/generic/models.ts:186
+[src/developer/generic/models.ts:186](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L186)
 
 ___
 
@@ -41,4 +41,4 @@ Text for neighborhood name search.
 
 #### Defined in
 
-src/developer/generic/models.ts:192
+[src/developer/generic/models.ts:192](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L192)

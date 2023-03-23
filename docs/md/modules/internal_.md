@@ -14,10 +14,8 @@
 
 - [Axios](../classes/internal_.Axios.md)
 - [AxiosHeaders](../classes/internal_.AxiosHeaders.md)
-- [DeveloperAPI](../classes/internal_.DeveloperAPI.md)
 - [EscrowContainer](../classes/internal_.EscrowContainer.md)
 - [GenericAPI](../classes/internal_.GenericAPI.md)
-- [PublicAPI](../classes/internal_.PublicAPI.md)
 - [UplandUser](../classes/internal_.UplandUser.md)
 
 ### Interfaces
@@ -309,7 +307,7 @@ The next page of results or null if there are no more results.
 
 #### Defined in
 
-src/utils/index.ts:14
+[src/utils/index.ts:14](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/utils/index.ts#L14)
 
 ___
 
@@ -361,7 +359,7 @@ The next function to call to get the next page of results.
 
 #### Defined in
 
-src/utils/index.ts:25
+[src/utils/index.ts:25](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/utils/index.ts#L25)
 
 ___
 

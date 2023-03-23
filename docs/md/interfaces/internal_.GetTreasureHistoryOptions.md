@@ -26,7 +26,7 @@ City ID to filter the treasure history by.
 
 #### Defined in
 
-src/developer/generic/models.ts:214
+[src/developer/generic/models.ts:214](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L214)
 
 ___
 
@@ -42,7 +42,7 @@ Current page number.
 
 #### Defined in
 
-src/developer/generic/models.ts:200
+[src/developer/generic/models.ts:200](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L200)
 
 ___
 
@@ -66,4 +66,4 @@ Page size between 10 and 100.
 
 #### Defined in
 
-src/developer/generic/models.ts:208
+[src/developer/generic/models.ts:208](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L208)

@@ -1,8 +1,6 @@
-[Upland Developer API](../README.md) / [Exports](../modules.md) / [<internal\>](../modules/internal_.md) / PublicAPI
+[Upland Developer API](../README.md) / [Exports](../modules.md) / PublicAPI
 
 # Class: PublicAPI
-
-[<internal>](../modules/internal_.md).PublicAPI
 
 Public Upland API.
 
@@ -10,11 +8,11 @@ Public Upland API.
 
 ### Constructors
 
-- [constructor](internal_.PublicAPI.md#constructor)
+- [constructor](PublicAPI.md#constructor)
 
 ### Methods
 
-- [isMaintenance](internal_.PublicAPI.md#ismaintenance)
+- [isMaintenance](PublicAPI.md#ismaintenance)
 
 ## Constructors
 
@@ -38,4 +36,4 @@ A Promise that resolves to a boolean indicating if the Upland API is under maint
 
 #### Defined in
 
-src/public/index.ts:13
+[src/public/index.ts:13](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/public/index.ts#L13)

@@ -36,7 +36,7 @@ The categories of the assets that can be resolved.
 
 #### Defined in
 
-src/developer/escrow/models.ts:34
+[src/developer/escrow/models.ts:34](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L34)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:35
+[src/developer/escrow/models.ts:35](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L35)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:41
+[src/developer/escrow/models.ts:41](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L41)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:38
+[src/developer/escrow/models.ts:38](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L38)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:36
+[src/developer/escrow/models.ts:36](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L36)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:40
+[src/developer/escrow/models.ts:40](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L40)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:43
+[src/developer/escrow/models.ts:43](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L43)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:39
+[src/developer/escrow/models.ts:39](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L39)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:37
+[src/developer/escrow/models.ts:37](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L37)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:33
+[src/developer/escrow/models.ts:33](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L33)
 
 ___
 
@@ -136,4 +136,4 @@ ___
 
 #### Defined in
 
-src/developer/escrow/models.ts:42
+[src/developer/escrow/models.ts:42](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L42)

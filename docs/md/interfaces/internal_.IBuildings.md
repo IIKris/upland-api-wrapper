@@ -18,4 +18,4 @@
 
 #### Defined in
 
-src/developer/generic/models.ts:87
+[src/developer/generic/models.ts:87](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L87)

@@ -46,7 +46,7 @@ Represents the GenericAPI class.
 
 #### Defined in
 
-src/developer/generic/index.ts:19
+[src/developer/generic/index.ts:19](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L19)
 
 ## Properties
 
@@ -58,7 +58,7 @@ The Axios instance to use for making requests.
 
 #### Defined in
 
-src/developer/generic/index.ts:19
+[src/developer/generic/index.ts:19](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L19)
 
 ## Methods
 
@@ -88,7 +88,7 @@ A Promise that resolves to an array of buildings.
 
 #### Defined in
 
-src/developer/generic/index.ts:99
+[src/developer/generic/index.ts:99](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L99)
 
 ___
 
@@ -112,7 +112,7 @@ A Promise that resolves to an array of cities.
 
 #### Defined in
 
-src/developer/generic/index.ts:118
+[src/developer/generic/index.ts:118](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L118)
 
 ___
 
@@ -136,7 +136,7 @@ Object containing an array of collections.
 
 #### Defined in
 
-src/developer/generic/index.ts:225
+[src/developer/generic/index.ts:225](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L225)
 
 ___
 
@@ -160,7 +160,7 @@ const devShops = await devAPI.generic.getDevShops();
 
 #### Defined in
 
-src/developer/generic/index.ts:270
+[src/developer/generic/index.ts:270](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L270)
 
 ___
 
@@ -194,7 +194,7 @@ const neighborhoods = await devAPI.generic.getNeighborhoods({ cityId: 3 });
 
 #### Defined in
 
-src/developer/generic/index.ts:198
+[src/developer/generic/index.ts:198](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L198)
 
 ___
 
@@ -225,7 +225,7 @@ const properties = await devAPI.generic.getProperties({ currentPage: 2, cityId: 
 
 #### Defined in
 
-src/developer/generic/index.ts:141
+[src/developer/generic/index.ts:141](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L141)
 
 ___
 
@@ -255,7 +255,7 @@ const property = await devAPI.generic.getPropertyById(79519475681868);
 
 #### Defined in
 
-src/developer/generic/index.ts:171
+[src/developer/generic/index.ts:171](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L171)
 
 ___
 
@@ -285,7 +285,7 @@ An object containing an array of buildings.
 
 #### Defined in
 
-src/developer/generic/index.ts:79
+[src/developer/generic/index.ts:79](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L79)
 
 ___
 
@@ -315,7 +315,7 @@ An object containing a track.
 
 #### Defined in
 
-src/developer/generic/index.ts:59
+[src/developer/generic/index.ts:59](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L59)
 
 ___
 
@@ -345,7 +345,7 @@ An object containing an array of tracks
 
 #### Defined in
 
-src/developer/generic/index.ts:31
+[src/developer/generic/index.ts:31](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L31)
 
 ___
 
@@ -379,4 +379,4 @@ const treasureHistory = await devAPI.generic.getTreasureHistory({ cityId: 3 });
 
 #### Defined in
 
-src/developer/generic/index.ts:250
+[src/developer/generic/index.ts:250](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/index.ts#L250)

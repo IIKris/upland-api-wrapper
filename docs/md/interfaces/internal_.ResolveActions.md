@@ -24,7 +24,7 @@ The amount of the asset to resolve (only for UPX and SPARK).
 
 #### Defined in
 
-src/developer/escrow/models.ts:10
+[src/developer/escrow/models.ts:10](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L10)
 
 ___
 
@@ -36,7 +36,7 @@ The ID of the asset to resolve (only for Nfts).
 
 #### Defined in
 
-src/developer/escrow/models.ts:5
+[src/developer/escrow/models.ts:5](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L5)
 
 ___
 
@@ -48,7 +48,7 @@ The category of the asset to resolve.
 
 #### Defined in
 
-src/developer/escrow/models.ts:15
+[src/developer/escrow/models.ts:15](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L15)
 
 ___
 
@@ -60,7 +60,7 @@ Indicates if the action is a refund operation
 
 #### Defined in
 
-src/developer/escrow/models.ts:25
+[src/developer/escrow/models.ts:25](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L25)
 
 ___
 
@@ -72,4 +72,4 @@ The target EOS ID of the user to resolve the asset to.
 
 #### Defined in
 
-src/developer/escrow/models.ts:20
+[src/developer/escrow/models.ts:20](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/escrow/models.ts#L20)

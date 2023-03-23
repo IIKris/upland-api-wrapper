@@ -21,7 +21,7 @@
 
 #### Defined in
 
-src/developer/generic/models.ts:36
+[src/developer/generic/models.ts:36](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L36)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:37
+[src/developer/generic/models.ts:37](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L37)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:39
+[src/developer/generic/models.ts:39](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L39)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-src/developer/generic/models.ts:38
+[src/developer/generic/models.ts:38](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/generic/models.ts#L38)

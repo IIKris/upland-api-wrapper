@@ -29,7 +29,7 @@ This enum is used to define the NFT categories that are allowed to put in escrow
 
 #### Defined in
 
-src/developer/user/models.ts:195
+[src/developer/user/models.ts:195](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L195)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:194
+[src/developer/user/models.ts:194](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L194)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:193
+[src/developer/user/models.ts:193](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L193)
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 #### Defined in
 
-src/developer/user/models.ts:196
+[src/developer/user/models.ts:196](https://github.com/IIKris/upland-api-wrapper/blob/30ebe98/src/developer/user/models.ts#L196)
