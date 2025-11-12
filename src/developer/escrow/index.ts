@@ -1,6 +1,6 @@
 import { AxiosInstance } from 'axios';
 import { IEscrowContainer } from '../models';
-import { EscrowCategory, ResolveActions } from './models';
+import { EscrowCategory, JoinContainerOptions, ResolveActions } from './models';
 
 
 export class EscrowContainer {
@@ -124,11 +124,41 @@ export class EscrowContainer {
     }
 
     /**
+     * Method to unlock the container and allow users to join it again.
+     */
+    public async unlock(): Promise<void> {
+        try {
+            await this._escrowAxiosInstance.post(`/containers/${this._container.id}/unlock`);
+        } catch (error) {
+            throw new Error(String(error));
+        }
+    }
+
+    /**
      * Method to refresh the expiration time of the container.
      */
     public async refreshExpirationTime(): Promise<void> {
         try {
             await this._escrowAxiosInstance.post(`/containers/${this._container.id}/refresh-expiration-time`);
+        } catch (error) {
+            throw new Error(String(error));
+        }
+    }
+
+    /**
+     * Adds developer Upland account assets into the container (no signature required).
+     * It is required to activate the permission delegation feature.
+     *
+     * @param {JoinContainerOptions} options The options for joining the container.
+     * @param {number} [options.upxAmount] The upx amount to put in escrow.
+     * @param {Array} [options.assets] The NFT assets to put in escrow.
+     *
+     * @returns {Promise<{transactionId: string}>} A Promise that resolves to an object containing the transaction ID.
+     */
+    public async join(options: JoinContainerOptions): Promise<{transactionId: string}> {
+        try {
+            const response = await this._escrowAxiosInstance.post(`/containers/${this._container.id}/join`, options);
+            return response.data;
         } catch (error) {
             throw new Error(String(error));
         }

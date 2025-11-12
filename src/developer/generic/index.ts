@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { AxiosInstance } from 'axios';
 import { testPageSize, fetchPaginatedData, PaginatedResult } from '../../utils';
-import { GetNeighborhoodsOptions, GetPropertiesOptions, GetTracksOptions, GetTreasureHistoryOptions, IBuilding, IBuildings, ICity, ICollection, IDevShop, INeighborhood, IProperties, IProperty, ITrack, ITracks, ITreasureHistory } from './models';
+import { GetNeighborhoodsOptions, GetPropertiesOptions, GetSendsOptions, GetTracksOptions, GetTreasureHistoryOptions, IBuilding, IBuildings, ICity, ICollection, IDevShop, INeighborhood, IProperties, IProperty, ISends, ITrack, ITracks, ITreasureHistory, IUserDevShopIntersectionCheck } from './models';
 
 /**
  * The GenericAPI class contains methods for accessing the Upland Developer API endpoints that do not require a specific user or container.
@@ -261,10 +261,10 @@ export class GenericAPI {
 
     /**
      * Get the dev shops.
-     * 
+     *
      * @example
      * const devShops = await devAPI.generic.getDevShops();
-     * 
+     *
      * @returns {Promise<Array<IDevShop>>} - A Promise that resolves to an array of dev shops.
      */
     public async getDevShops(): Promise<IDevShop[]> {
@@ -274,5 +274,56 @@ export class GenericAPI {
         } catch (error) {
             throw new Error(String(error));
         }
+    }
+
+    /**
+     * Check if a user is in the dev shop range.
+     *
+     * @example
+     * const intersection = await devAPI.generic.checkUserDevShopIntersection('devShopId', 'userId');
+     *
+     * @param {string} devShopId - The dev shop ID.
+     * @param {string} userId - The user ID.
+     *
+     * @returns {Promise<IUserDevShopIntersectionCheck>} - A Promise that resolves to an object indicating if the user is in range.
+     */
+    public async checkUserDevShopIntersection(devShopId: string, userId: string): Promise<IUserDevShopIntersectionCheck> {
+        if (!devShopId || !userId) {
+            throw new Error('Dev shop ID and user ID are required.');
+        }
+        try {
+            const response = await this._axiosInstance.get(`/devshops/${devShopId}/check-user-intersection/${userId}`);
+            return response.data;
+        } catch (error) {
+            throw new Error(String(error));
+        }
+    }
+
+    /**
+     * Get sends for a given city.
+     *
+     * @example
+     * const sends = await devAPI.generic.getSends({ cityId: 1, currentPage: 1, pageSize: 10 });
+     *
+     * @param {Object} options - The options for fetching sends.
+     * @param {number} options.cityId - The city ID to filter by (required).
+     * @param {number} [options.currentPage=1] - The current page number.
+     * @param {number} [options.pageSize=100] - The page size between 10 and 100.
+     *
+     * @returns {Promise<PaginatedResult<ISends>>} - A Promise resolving to an object containing sends and a next() function.
+     */
+    public async getSends(options: GetSendsOptions): Promise<PaginatedResult<ISends>> {
+        const { currentPage = 1, pageSize = 100, cityId } = options;
+        if (!cityId) {
+            throw new Error('City ID is required.');
+        }
+        if (!testPageSize(pageSize)) {
+            throw new Error('Page size must be between 10 and 100.');
+        }
+
+        const endpoint = '/sends';
+        const params = { currentPage, pageSize, cityId };
+
+        return fetchPaginatedData<ISends>(endpoint, params, this._axiosInstance);
     }
 }

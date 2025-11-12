@@ -1,3 +1,18 @@
+export interface JoinContainerOptions {
+    /**
+     * The upx amount to put in escrow.
+     */
+    upxAmount?: number;
+
+    /**
+     * The NFT assets to put in escrow.
+     */
+    assets?: Array<{
+        id: number;
+        category: string;
+    }>;
+}
+
 export interface ResolveActions {
     /**
      * The ID of the asset to resolve (only for Nfts).

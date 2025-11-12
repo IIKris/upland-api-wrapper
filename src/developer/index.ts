@@ -1,7 +1,9 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
+import { AppUsageAPI } from './appusage';
 import { EscrowContainer } from './escrow';
 import { GenericAPI } from './generic';
 import { IAuthCode, IEscrowContainer } from './models';
+import { TournamentAPI } from './tournament';
 import { UplandUser } from './user';
 
 /**
@@ -33,6 +35,8 @@ class DeveloperAPI {
     private readonly _axiosInstance: AxiosInstance;
     private _baseURL: string;
     public readonly generic: GenericAPI;
+    public readonly appUsage: AppUsageAPI;
+    public readonly tournament: TournamentAPI;
 
     /**
      * Returns an instance of the DeveloperAPI class.
@@ -56,6 +60,8 @@ class DeveloperAPI {
             }
         });
         this.generic = new GenericAPI(this._axiosInstance);
+        this.appUsage = new AppUsageAPI(this._axiosInstance);
+        this.tournament = new TournamentAPI(this._axiosInstance);
     }
 
     /**

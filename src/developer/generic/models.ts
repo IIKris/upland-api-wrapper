@@ -213,3 +213,41 @@ export interface GetTreasureHistoryOptions {
      */
     cityId?: number;
 }
+
+export interface ISend {
+    id: string;
+    propertyId: number;
+    coordinates: Array<number>;
+}
+
+export interface ISends {
+    results: ISend[];
+    currentPage: number;
+    pageSize: number;
+    totalResults: number;
+}
+
+export interface GetSendsOptions {
+    /**
+     * Current page number.
+     * @defaultValue 1
+     */
+    currentPage?: number;
+
+    /**
+     * Page size between 10 and 100.
+     * @defaultValue 100
+     * @minimum 10
+     * @maximum 100
+     */
+    pageSize?: number;
+
+    /**
+     * City ID to filter sends by (required).
+     */
+    cityId: number;
+}
+
+export interface IUserDevShopIntersectionCheck {
+    isInRange: boolean;
+}

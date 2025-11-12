@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios, { AxiosInstance } from 'axios';
+import { UserTournamentAPI } from '../tournament';
 import { fetchPaginatedData, PaginatedResult, testPageSize } from '../../utils';
 import { GetNftAssetsOptions, GetPropertiesOptions, IUserBalances, IUserNftAssets, IUserProfile, NFTCategory, IProperties, PutInEscrowOptions, NFTEscrowCategory, ITravel, GetTravelOptions } from './models';
 
@@ -15,10 +16,11 @@ import { GetNftAssetsOptions, GetPropertiesOptions, IUserBalances, IUserNftAsset
 export class UplandUser {
     private readonly _userAxiosInstance: AxiosInstance;
     private _baseURL: string;
+    public readonly tournament: UserTournamentAPI;
 
     /**
      * Creates an instance of UplandUser.
-     * 
+     *
      * @param {string} baseURL The base URL for the API.
      * @param {string} accessToken The access token for the user.
      */
@@ -31,6 +33,7 @@ export class UplandUser {
                 Authorization: `Bearer ${accessToken}`
             }
         });
+        this.tournament = new UserTournamentAPI(this._userAxiosInstance);
     }
 
     /**
@@ -179,7 +182,7 @@ export class UplandUser {
                     throw new Error('Asset ID and Category are required');
                 }
                 // check if asset is valid (in NFTEscrowCategory)
-                if (Object.values(NFTEscrowCategory).includes(asset.category)) {
+                if (!Object.values(NFTEscrowCategory).includes(asset.category)) {
                     throw new Error('Invalid asset category');
                 }
             }
